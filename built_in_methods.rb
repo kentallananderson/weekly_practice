@@ -30,8 +30,9 @@
   puts "Enter a number:"
   number = gets.chomp
   number = number.to_i
-  p number
-
+  10.times do
+  puts number
+  end 
 
 # 6. Write a program that asks the user to enter two words, then prints both words on the same line in all capital letters.
 
