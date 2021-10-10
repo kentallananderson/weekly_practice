@@ -53,7 +53,9 @@
 puts "Enter a number:"
 number = gets.chomp
 number = number.to_i
-p number
+if number < 0
+  puts "That's a negative number"
+end 
 
 # 9. Write a program that asks the user to enter two numbers, then prints the two numbers multiplied together.
 
