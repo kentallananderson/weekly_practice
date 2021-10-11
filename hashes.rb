@@ -18,11 +18,17 @@
 
 # 3. Make a hash to store prices for 3 different menu items. Then add a new menu item and price and print the hash to see the result.
 
-  menu_items = {"pizza" => 10, "chiken_strips" => 8, "Fries" => 3.50}
-  menu_items["alfredo"] = 12
-  puts menu_items
+  # menu_items = {"pizza" => 10, "chiken_strips" => 8, "Fries" => 3.50}
+  # menu_items["alfredo"] = 12
+  # puts menu_items
 
 # 4. Make a hash to store a book's title, author, number of pages, and language. Then print each attribute on separate lines.
+
+  book = {"title" => "The Pearl", "author" => "John Steinbeck", "pages" => 110, "language" => "English"}
+  puts book["title"]
+  puts book["author"]
+  puts book["pages"]
+  puts book["language"]
 
 # 5. Make an array of hashes to store the title and author for 3 different books. Then print out the third book's author.
 
