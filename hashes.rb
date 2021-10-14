@@ -63,12 +63,17 @@
 
 # 9. Make a hash to store definitions for 2 different words. Then add a new word and definition and print the hash to see the result.
 
-  words = {"star" => "a fixed luminous point in the night sky which is a large, remote incandescent body like the sun.", "moon" => "
-    the natural satellite of the earth, visible (chiefly at night) by reflected light from the sun."}
-  words["planet"] = "a celestial body moving in an elliptical orbit around a star."
-  puts words
+  # words = {"star" => "a fixed luminous point in the night sky which is a large, remote incandescent body like the sun.", "moon" => "
+  #   the natural satellite of the earth, visible (chiefly at night) by reflected light from the sun."}
+  # words["planet"] = "a celestial body moving in an elliptical orbit around a star."
+  # puts words
 
 # 10. Make a hash to store a shirt's brand, color, and size. Then print each attribute on separate lines.
+
+  shirt = {"brand" => "Volcom", "color" => "black", "size" => "Medium"}
+  puts shirt["brand"]
+  puts shirt["color"]
+  puts shirt["size"]
 
 
 # SOLUTIONS: https://gist.github.com/peterxjang/d257aec07882d78009bd796ed53f81bb
