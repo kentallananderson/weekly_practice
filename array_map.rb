@@ -65,6 +65,34 @@
 #  3. Start with an array of hashes and create a new array of string values from each hash's :name key.
 #     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes ["Alice", "Blane"].
 
+# # while loop
+# array = [{name: "Alice", age: 27}, {name: "Blane", age: 16}]
+# new_array = []
+# i = 0 
+# while i < array.length
+#   new_array << array[i][:name]
+#   i += 1
+# end
+
+# p new_array
+
+# # each loop
+# array = [{name: "Alice", age: 27}, {name: "Blane", age: 16}]
+# new_array = []
+# array.each do |person|
+#   new_array << person[:name]
+# end 
+
+# p new_array
+
+# # map
+# array = [{name: "Alice", age: 27}, {name: "Blane", age: 16}]
+# new_array = array.map do |person|
+#   person[:name]
+# end 
+
+# p new_array
+
 #  4. Start with an array of numbers and create a new array with each number plus 7.
 #     For example, [1, 2, 3] becomes [8, 9, 10].
 
