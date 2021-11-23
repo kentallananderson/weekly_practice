@@ -70,10 +70,10 @@
 
 # 10. Make a hash to store a shirt's brand, color, and size. Then print each attribute on separate lines.
 
-  shirt = {"brand" => "Volcom", "color" => "black", "size" => "Medium"}
-  puts shirt["brand"]
-  puts shirt["color"]
-  puts shirt["size"]
+  # shirt = {"brand" => "Volcom", "color" => "black", "size" => "Medium"}
+  # puts shirt["brand"]
+  # puts shirt["color"]
+  # puts shirt["size"]
 
 
 # SOLUTIONS: https://gist.github.com/peterxjang/d257aec07882d78009bd796ed53f81bb
